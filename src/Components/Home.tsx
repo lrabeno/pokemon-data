@@ -8,6 +8,8 @@ function Home() {
   const [pokeData, setPokeData] = useState([]);
   const [editMode, setEditMode] = useState(false);
 
+  //here i am editing a line to test pushing to github on new comp
+
   const fetchPokeInfo = async () => {
     try {
       // const fetch20Pokemon = await axios.get(
